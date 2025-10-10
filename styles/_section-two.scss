@@ -23,6 +23,7 @@
         min-height: 350px; // höftade
         display: flex;
         flex-wrap: wrap;
+        padding: 10px;
     }
     &__h2 {
         font-size: 36px;
@@ -47,6 +48,7 @@
     &__images {
         max-width: 450px;
         min-height: 460px;
+        padding: 10px;
     }
 }
 .section-two__images img:last-of-type {
