@@ -49,9 +49,12 @@ header {
         }
     }
     &__list {
+        max-width: 525px;
+        width: 100%;
         list-style: none;
         display: flex;
         justify-content: space-between;
+        padding: none;
     }
     &__link {
         text-decoration: none;
@@ -65,9 +68,6 @@ header {
         &:active {
             color: #333333da;
         }
-    }
-    &__li {
-        width: 117px;
     }
 }
 
