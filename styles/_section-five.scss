@@ -49,5 +49,12 @@
         font-family: "Aleo", serif;
         font-weight: 300;
         margin-top: 30px;
+        &:hover {
+             background-color: #7890fb;
+         }
+        &:active {
+            color:  #33333399;
+            background-color: #5a78fd;
+        }
     }
 }

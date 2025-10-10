@@ -37,10 +37,16 @@ footer {
     &:hover {
         opacity: 60%;
     }
+    &:active {
+    color: #c8c6c687;
+    }
 }
 .icons-footer-linkedin {
     color: #5474FD;
     &:hover {
         opacity: 60%;
+    }
+    &:active {
+    color:  #c8c6c687;
     }
 }
