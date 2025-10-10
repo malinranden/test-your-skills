@@ -79,6 +79,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    padding: 20px;
     &__h1 {
         font-size: 48px;
         text-transform: uppercase;
@@ -136,46 +137,48 @@ header {
         }
     }
 }
+.icon {
+    display: none;
+}
+
+@media screen and (max-width: 888px) {
+    header {
+        position: absolute;
+        top: 0px;
+        height: 80px;
+    }
+     .nav__list {
+        //  visibility: hidden;
+     }
+     .icon {
+         visibility: visible;
+         display: block;
+         padding: 10px;
+    }
+}
 
 
-// .form {
-//     max-width: 500px;
-//     width: 100%;
-//     min-height: 63px;
-//     box-sizing: border-box;
-//     // position: relative;
-//     &__input {
-//     max-width: 500px;
-//     width: 100%;
-//     min-height: 63px;
-//     padding: none;
-//     border: none;
-//     text-align: center;
-//     letter-spacing: 2.8px;
-//     color: #999999;
-//     font-weight: 300;
-//     position: relative;
-//     box-sizing: border-box;
+
+
+
+// burger try
+// @media screen and (max-width:888px) {
+//     .nav__link h3:not(:first-child) {display: none;}
+//     .nav a.icon {
+//         display: block;
+//         float: right;
 //     }
-//     // &__input::placeholder {
-//     //     margin-right: 150px;
-//     // }
-//     &__button {
-//         position: relative;
-//         left: 500px;
-//         z-index: 1;
-//         width: 150px;
-//         height: 60px;
-//         background-color: #5474FD;
-//         border: 2px solid white;
-//         // border: none;
-//         color: white;
-//         font-family: "Aleo", serif;
-//         letter-spacing: 1.4px;
-//         font-size: 14px;
-//         font-weight: 400;
-//         &:hover {
-//             background-color: #7890fb;
-//         }
-//     }
+// }
+// @media screen and (max-width: 888px) {
+//   .nav.responsive {position: relative;}
+//   .nav.responsive a.icon {
+//     position: absolute;
+//     right: 0;
+//     top: 0;
+//   }
+//   .nav.responsive a {
+//     float: none;
+//     display: block;
+//     text-align: left;
+//   }
 // }

@@ -31,7 +31,7 @@
         </div>
         <!-- <img src="images/background-section1.png" alt="background-image-mountain-woman"> -->
         <header>
-            <nav class="nav">
+            <nav class="nav" id="nav">
                 <h3 class="nav__logo">
                     BHROMAON
                 </h3>
@@ -40,9 +40,23 @@
                     <li class="nav__li"><a class="nav__link" href="">What We Do</a></li>
                     <li class="nav__li"><a class="nav__link" href="">Travel With Us</a></li>
                     <li class="nav__li"><a class="nav__link" href="">Contact Us</a></li>
+                    <a class="icon" onclick="burgerMenu()">
+                    <i class="fa fa-bars"></i>
+                    </a>
                 </ul>
             </nav>
         </header>
+
+        <script>
+        function burgerMenu() {
+            let burger = document.getElementById("nav");
+            if (burger.className === "nav") {
+            burger.className += " responsive";
+            } else {
+            burger.className = "nav";
+            }
+        }
+        </script>
 
     </section>
 
