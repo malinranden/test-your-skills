@@ -1,11 +1,51 @@
 .section-four {
+    background-image: url(/images/background-section4-1.png);
     max-width: 1770px;
     width: 100%;
-    height: 700px;
-    background-color: crimson;
+    min-height: 700px;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
 }
-.section-four img:first-child {
-    max-width: 1773px;
+.section-four__box {
+    max-width: 543px;
     width: 100%;
-    min-height: 100%
+    min-height: 374px;
+    background-color: #232323;
+    opacity: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+    padding: 30px;
+}
+.section-four {
+    &__p {
+        font-size: 20px;
+        letter-spacing: 1.5px;
+    }
+    &__h3 {
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 400;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    &__p2 {
+        font-size: 18px;
+        line-height: 35px;
+        font-weight: 300;
+    }
+    &__button {
+        font-size: 16px;
+        width: 228px;
+        height: 63px;
+        background-color: #5474FD;
+        border: none;
+        color: #FFFFFF;
+        letter-spacing: 1.2px;
+        font-family: "Aleo", serif;
+        font-weight: 300;
+        margin-top: 30px;
+    }
 }

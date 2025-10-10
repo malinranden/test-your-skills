@@ -3,4 +3,40 @@
     width: 100%;
     min-height: 340px;
     background-color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.container-boxes {
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box {
+    width: 220px;
+    height: 174px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.box p {
+    font-size: 30px;
+    font-family: "Aleo", serif;
+    font-weight: 200;
+    text-align: center;
+    margin: 5px;
+}
+.box img {
+    width: 60px;
+    height: 60px;
+}
+
+.section-three > img {
+    position: absolute;
+    top: 0;
 }
