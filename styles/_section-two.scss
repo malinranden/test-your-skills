@@ -4,9 +4,40 @@
     width: 100%;
     min-height: 685px;
     background-color: bisque;
+
+
 }
-.section-two img:first-child {
-    max-width: 1773px;
-    width: 100%;
-    min-height: 100%;
+// .section-two img:first-child {
+//     max-width: 1773px;
+//     width: 100%;
+//     min-height: 100%;
+// }
+
+.section-two {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    &__text {
+        max-width: 560px;
+        width: 100%;
+        min-height: 350px; // höftade
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__p {
+        
+    }
+    &__button {
+        width: 228px;
+        height: 63px;
+        background-color: #496BFE;
+    }
+    &__images {
+        max-width: 450px;
+        min-height: 460px;
+    }
+}
+.section-two__images img:last-of-type {
+    position: relative;
+    left: 90px;
 }

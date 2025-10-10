@@ -8,7 +8,9 @@ $aleo: "Aleo", serif;
     width: 100%;
     min-height: 820px;
     background-color: aquamarine;
-    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 header {
@@ -46,5 +48,42 @@ header {
     }
     &__li {
         width: 117px;
+    }
+}
+
+.middle-section-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__h1 {
+        font-size: 48px;
+        text-transform: uppercase;
+        margin: 0;
+    }
+    &__p {
+        font-size: 22px;
+        line-height: 26px;
+        letter-spacing: 6.82px;
+        font-weight: 400;
+        margin: 0;
+    }
+}
+.form {
+    width: 673px;
+    height: 63px;
+    box-sizing: border-box;
+    &__input {
+    width: 503px;
+    height: 63px;
+    padding: none;
+    border: none;
+    text-align: center;
+    }
+    &__button {
+        width: 150px;
+        height: 63px;
+        background-color: #FFFFFF;
+        border: none;
+        padding: none;
     }
 }
