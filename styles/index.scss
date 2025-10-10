@@ -1,5 +1,15 @@
 @use 'fonts';
 
+@import 'section-one';
+@import 'section-two';
+@import 'section-three';
+@import 'section-four';
+@import 'section-five';
+@import 'section-six';
+@import 'footer';
+
 body {
     font-family: fonts.$main-font;
+    display: flex;
+    flex-wrap: wrap;
 }
