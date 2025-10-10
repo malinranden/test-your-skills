@@ -1,6 +1,31 @@
 footer {
-    max-width: 1773px;
+    max-width: 1770px;
     width: 100%;
     min-height: 271px;
     background-color: #232323;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer {
+    &__logo {
+        text-transform: uppercase;
+        margin: 0;
+    }
+    &__p {
+        font-size: 16px;
+        letter-spacing: 1.6px;
+    }
+    &__icon-container {
+        // max-width: 1770px;
+        // display: flex;
+        // justify-content: space-around;
+    }
+}
+.icons-footer {
+    color: #FFFFFF;
+}
+.icons-footer-linkedin {
+    color: #5474FD;
 }
