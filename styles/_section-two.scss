@@ -24,13 +24,25 @@
         display: flex;
         flex-wrap: wrap;
     }
+    &__h2 {
+        font-size: 36px;
+        font-family: "Aleo", serif;
+        font-weight: 300;
+    }
     &__p {
-        
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 1.6px;
     }
     &__button {
         width: 228px;
         height: 63px;
         background-color: #496BFE;
+        border: none;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        font-family: "Aleo", serif;
+        letter-spacing: 1.2px;
     }
     &__images {
         max-width: 450px;
