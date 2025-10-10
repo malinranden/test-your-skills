@@ -33,6 +33,9 @@ header {
         font-weight: 700;
         letter-spacing: 2.4px;
         font-size: 24px;
+        &:hover {
+            background-color: #3333334e;
+        }
     }
     &__list {
         list-style: none;
@@ -45,6 +48,9 @@ header {
         font-family: $aleo;
         font-size: 14px;
         text-transform: uppercase;
+        &:hover {
+            background-color: #3333334e;
+        }
     }
     &__li {
         width: 117px;
@@ -52,13 +58,18 @@ header {
 }
 
 .middle-section-one {
+    max-width: 673px;
+    width: 100%;
+    min-height: 345px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
     &__h1 {
         font-size: 48px;
         text-transform: uppercase;
         margin: 0;
+        text-align: center;
     }
     &__p {
         font-size: 22px;
@@ -68,22 +79,85 @@ header {
         margin: 0;
     }
 }
+.form-container {
+    max-width: 665px;
+    width: 100%;
+    min-height: 60px;
+    display: flex;
+    justify-content: center;
+}
 .form {
-    width: 673px;
-    height: 63px;
-    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     &__input {
-    width: 503px;
-    height: 63px;
-    padding: none;
-    border: none;
-    text-align: center;
+        max-width: 500px;
+        width: 100%;
+        height: 60px;
+        padding: none;
+        border: none;
+        border-style: none;
+        text-align: center;
     }
     &__button {
-        width: 150px;
-        height: 63px;
-        background-color: #FFFFFF;
+        max-width: 150px;
+        width: 100%;
+        height: 60px;
         border: none;
-        padding: none;
+        border-style: none;
+        background-color: #5474FD;
+        margin: 5px solid white;
+         color: white;
+         font-family: "Aleo", serif;
+         letter-spacing: 1.4px;
+         font-size: 14px;
+         font-weight: 400;
+        &:hover {
+             background-color: #7890fb;
+         }
     }
 }
+
+
+// .form {
+//     max-width: 500px;
+//     width: 100%;
+//     min-height: 63px;
+//     box-sizing: border-box;
+//     // position: relative;
+//     &__input {
+//     max-width: 500px;
+//     width: 100%;
+//     min-height: 63px;
+//     padding: none;
+//     border: none;
+//     text-align: center;
+//     letter-spacing: 2.8px;
+//     color: #999999;
+//     font-weight: 300;
+//     position: relative;
+//     box-sizing: border-box;
+//     }
+//     // &__input::placeholder {
+//     //     margin-right: 150px;
+//     // }
+//     &__button {
+//         position: relative;
+//         left: 500px;
+//         z-index: 1;
+//         width: 150px;
+//         height: 60px;
+//         background-color: #5474FD;
+//         border: 2px solid white;
+//         // border: none;
+//         color: white;
+//         font-family: "Aleo", serif;
+//         letter-spacing: 1.4px;
+//         font-size: 14px;
+//         font-weight: 400;
+//         &:hover {
+//             background-color: #7890fb;
+//         }
+//     }
+// }
