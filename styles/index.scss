@@ -1,6 +1,7 @@
 @use 'fonts';
 
 @import 'section-one';
+// @import 'header';
 @import 'section-two';
 @import 'section-three';
 @import 'section-four';
@@ -12,4 +13,5 @@ body {
     font-family: fonts.$main-font;
     display: flex;
     flex-wrap: wrap;
+    color: #FFFFFF;
 }

@@ -1,5 +1,50 @@
-.section-one img:first-child {
+// @import 'header'; // eller import??  eller inte alls?
+
+$aleo: "Aleo", serif;
+
+.section-one {
+    background-image: url(/images/background-section1.png);
+    max-width: 1770px;
+    width: 100%;
+    min-height: 820px;
+    background-color: aquamarine;
+    box-sizing: border-box;
+}
+
+header {
     max-width: 1773px;
     width: 100%;
-    min-height: 100%;
+    min-height: 83px;
+    background-color: #5474FD;
+    position: absolute;
+    bottom: 102px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    &__logo {
+        font-weight: 700;
+        letter-spacing: 2.4px;
+        font-size: 24px;
+    }
+    &__list {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__link {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-family: $aleo;
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+    &__li {
+        width: 117px;
+    }
 }
