@@ -65,6 +65,7 @@
     left: 90px;
 }
 
+
  @media screen and (max-width: 1110px) {
     .section-two__images img:last-of-type {
     position: static;
@@ -88,5 +89,14 @@
     }
     .section-two__text {
         justify-content: center;
+    }
+}
+
+@media screen and (max-width:530px) {
+    .section-two__images img {
+        max-width: 50%;
+    }
+    img {
+        max-width: 50%;
     }
 }
