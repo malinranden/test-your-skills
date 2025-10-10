@@ -19,6 +19,7 @@
         // min-height: 287px;
         // background-color: #333333;
         display: flex;
+        margin: 50px;
         
     }
     &__image {
@@ -29,7 +30,7 @@
     &__text-container {
         max-width: 668px;
         width: 100%;
-        min-height: 287px;
+        min-height: 284px;
         background-color: #333333;
         padding-left: 30px;
         padding-right: 30px;
@@ -40,10 +41,12 @@
     &__p1 {
         text-transform: uppercase;
         font-size: 20px;
+        margin: 0;
     }
     &__p2 {
         font-size: 18px;
         line-height: 26px;
+        margin: 0px;
     }
 }
 .section-six .fa-solid {

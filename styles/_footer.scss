@@ -18,14 +18,29 @@ footer {
         letter-spacing: 1.6px;
     }
     &__icon-container {
-        // max-width: 1770px;
-        // display: flex;
-        // justify-content: space-around;
+        max-width: 196px;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
     }
+}
+.footer__logo a {
+    text-decoration: none;
+    color: #FFFFFF;
+    &:hover {
+        opacity: 60%;
+    }
+    
 }
 .icons-footer {
     color: #FFFFFF;
+    &:hover {
+        opacity: 60%;
+    }
 }
 .icons-footer-linkedin {
     color: #5474FD;
+    &:hover {
+        opacity: 60%;
+    }
 }
