@@ -137,6 +137,25 @@ header {
         }
     }
 }
+.scroll-container {
+    width: 108px;
+    height: 46px;
+    text-align: center;
+    &__a {
+        font-size: 14px;
+        text-decoration: none;
+        color: #FFFFFF;
+        letter-spacing: 2.8px;
+        font-weight: 300;
+    }
+    &:hover {
+        opacity: 60%;
+    }
+    &:active {
+        opacity: 40%;
+    }
+}
+
 .icon {
     display: none;
 }
