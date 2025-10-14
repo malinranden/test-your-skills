@@ -28,25 +28,20 @@ footer {
     text-decoration: none;
     color: #FFFFFF;
     &:hover {
-        opacity: 60%;
+        color: #5474FD;
+    }
+    &:active {
+        color: #5473fd8c;
     }
     
 }
 .icons-footer {
     color: #FFFFFF;
     &:hover {
-        opacity: 60%;
+        color: #5474FD;
     }
     &:active {
-    color: #c8c6c687;
+        color: #5473fd8c;
     }
 }
-.icons-footer-linkedin {
-    color: #5474FD;
-    &:hover {
-        opacity: 60%;
-    }
-    &:active {
-    color:  #c8c6c687;
-    }
-}
+
