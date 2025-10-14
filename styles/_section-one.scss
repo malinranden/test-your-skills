@@ -2,6 +2,10 @@
 
 $aleo: "Aleo", serif;
 
+html {
+    scroll-behavior: smooth;
+}
+
 .section-one {
     background-image: url(/images/background-section1.png);
     max-width: 1770px;
