@@ -12,6 +12,8 @@
         font-size: 36px;
         font-family: "Aleo", serif;
         font-weight: 200;
+        margin-bottom: 70px;
+        text-align: center;
     }
     &__container {
         // max-width: 1770px;
@@ -20,9 +22,10 @@
         // background-color: #333333;
         display: flex;
         flex-wrap: wrap;
-        margin: 50px;
         justify-content: center;
-        
+    }
+    &__container > img {
+        // padding-left: 20px;
     }
     &__image {
         max-width: 445px;
@@ -61,6 +64,25 @@
 //         min-height: 284px;
 //         width: 500px;
 // }
+
+@media screen and (max-width: 1172px) {
+    .section-six__container > img {
+            padding-bottom: 20px;
+            max-width: 80%;
+    }
+    .section-six__text-container {
+        margin-bottom: 20px;
+    }
+    .section-six__h1 {
+        margin-bottom: 20px;
+    }
+    // .section-six__container img {
+    //     width: 70%;
+    // }
+    .section-six__container {
+        max-width: 80%;
+    }
+}
 
 @media screen and (max-width:770px) {
     .section-six__container img {
