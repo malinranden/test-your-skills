@@ -61,3 +61,14 @@
     width: 102%;
     height: 102%;
 }
+
+@media screen and (max-width: 1000px) {
+    .section-three-container img {
+        width: 142%;
+    }
+}
+@media screen and (max-width: 620px) {
+    .section-three {
+        min-height: 200px;
+    }
+}

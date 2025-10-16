@@ -24,12 +24,13 @@
         min-height: 350px; // höftade
         display: flex;
         flex-wrap: wrap;
-        padding: 20px;
+        padding: 30px;
     }
     &__h2 {
         font-size: 36px;
         font-family: "Aleo", serif;
         font-weight: 300;
+        margin-bottom: 15px;
     }
     &__p {
         font-size: 16px;
