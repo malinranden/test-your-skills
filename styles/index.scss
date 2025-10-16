@@ -13,7 +13,7 @@ body {
     font-family: fonts.$main-font;
     font-weight: 200;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     color: #FFFFFF;
     max-width: 1770px;
     width: 100%;
